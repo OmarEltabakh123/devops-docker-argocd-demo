@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')
-        IMAGE_NAME = 'yourdockerhubusername/devops-docker-argocd-demo'
+        IMAGE_NAME = 'omareltabakh/devops-docker-argocd-demo'
         IMAGE_TAG = "latest"
     }
 
